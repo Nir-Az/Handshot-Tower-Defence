@@ -24,9 +24,12 @@ that way you can change in the project and play the game using keyboard, but if 
 
 
 ### **Just Playing** 
-If you want just to play the game download "Game Build" folder from here, extract it and run one of this 2 run files.
-![image](https://github.com/saadisaadi1/Handshot-Tower-Defence/assets/50622237/4c803abb-cbcc-48e9-b59d-8836fb2366e9)
-
+If you want just to play the game download "Game Build" folder from the repository folders, extract it and run one of this 2 run files.
+* [run game 2 hands.bat](<./Game Build/run game 2 hands.bat>)
+* [run game 4 hands.bat](<./Game Build/run game 4 hands.bat>)
+> Note: it will install all required packages
+> If mediapipe package is not installed, run
+> `py -3 -m pip install mediapipe`
 
 ### **About The Game**
 This game is an archery tower defence game, you are an archer on top of a castle your job is to defend the castle, and finesh the 9 waves before dying. After each wave the game gives you 3 abilities to choose one of them. Most of the abilities are permanent that update the arrows, for example the bouncing ability make your arrow jump, there are two abilities that you need to do specific actions to apply them: when choosing spikes ability, you need to put the spikes on the groud, and if you choose the special attack ability, you can use it once in each wave and make alot of arrows fall from the sky, you can control the game either with the keyboard or with intel RealSense depth camera.
